@@ -1,0 +1,2265 @@
+[
+  {
+    "id": 1,
+    "order_no": "ORD20261104000001",
+    "user_id": "user_0220",
+    "user_name": "王五",
+    "status": "completed",
+    "total_amount": 8517.56,
+    "discount_amount": 796.54,
+    "pay_amount": 7721.02,
+    "shipping_fee": 0.0,
+    "receiver_name": "王五",
+    "receiver_phone": "13811402588",
+    "receiver_address": "武汉市洪山区某某街道312号",
+    "logistics_company": "中通快递",
+    "logistics_no": "SF196725789187",
+    "pay_time": "2026-11-05 23:59:45",
+    "ship_time": "2026-11-07 23:59:45",
+    "deliver_time": "2026-11-07 23:59:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 104,
+        "product_name": "商品104 - 标准版",
+        "product_image": "https://picsum.photos/seed/product104/100/100",
+        "specs": "白色 高配版",
+        "price": 3799.16,
+        "quantity": 1,
+        "subtotal": 3799.16
+      },
+      {
+        "product_id": 183,
+        "product_name": "商品183 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product183/100/100",
+        "specs": "蓝色 标准版",
+        "price": 2359.2,
+        "quantity": 2,
+        "subtotal": 4718.4
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "order_no": "ORD20261007000002",
+    "user_id": "user_0220",
+    "user_name": "王五",
+    "status": "completed",
+    "total_amount": 7256.16,
+    "discount_amount": 841.37,
+    "pay_amount": 6414.79,
+    "shipping_fee": 0.0,
+    "receiver_name": "王五",
+    "receiver_phone": "13873646229",
+    "receiver_address": "杭州市西湖区某某街道783号",
+    "logistics_company": "申通快递",
+    "logistics_no": "SF999805955835",
+    "pay_time": "2026-10-08 11:52:45",
+    "ship_time": "2026-10-09 20:52:45",
+    "deliver_time": "2026-10-10 20:52:45",
+    "remark": "",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "商品15 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product15/100/100",
+        "specs": "黑色 标准款",
+        "price": 2418.72,
+        "quantity": 3,
+        "subtotal": 7256.16
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "order_no": "ORD20261107000003",
+    "user_id": "user_0491",
+    "user_name": "吴十",
+    "status": "shipped",
+    "total_amount": 21829.94,
+    "discount_amount": 72.73,
+    "pay_amount": 21757.21,
+    "shipping_fee": 0.0,
+    "receiver_name": "吴十",
+    "receiver_phone": "13895179502",
+    "receiver_address": "武汉市洪山区某某街道128号",
+    "logistics_company": "韵达快递",
+    "logistics_no": "SF498438189684",
+    "pay_time": "2026-11-07 20:30:45",
+    "ship_time": "2026-11-10 02:30:45",
+    "deliver_time": null,
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 53,
+        "product_name": "商品53 - 标准版",
+        "product_image": "https://picsum.photos/seed/product53/100/100",
+        "specs": "黑色 标准款",
+        "price": 1539.49,
+        "quantity": 3,
+        "subtotal": 4618.47
+      },
+      {
+        "product_id": 35,
+        "product_name": "商品35 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product35/100/100",
+        "specs": "蓝色 标准版",
+        "price": 2838.36,
+        "quantity": 3,
+        "subtotal": 8515.08
+      },
+      {
+        "product_id": 152,
+        "product_name": "商品152 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product152/100/100",
+        "specs": "黑色 标准款",
+        "price": 476.66,
+        "quantity": 1,
+        "subtotal": 476.66
+      },
+      {
+        "product_id": 180,
+        "product_name": "商品180 - 标准版",
+        "product_image": "https://picsum.photos/seed/product180/100/100",
+        "specs": "黑色 标准款",
+        "price": 2739.91,
+        "quantity": 3,
+        "subtotal": 8219.73
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "order_no": "ORD20261022000004",
+    "user_id": "user_0968",
+    "user_name": "黄伟",
+    "status": "completed",
+    "total_amount": 8760.6,
+    "discount_amount": 1152.12,
+    "pay_amount": 7608.48,
+    "shipping_fee": 0.0,
+    "receiver_name": "黄伟",
+    "receiver_phone": "13880141749",
+    "receiver_address": "深圳市南山区某某街道420号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF581460988673",
+    "pay_time": "2026-10-22 06:32:45",
+    "ship_time": "2026-10-24 02:32:45",
+    "deliver_time": "2026-10-27 02:32:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 179,
+        "product_name": "商品179 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product179/100/100",
+        "specs": "黑色 标准款",
+        "price": 243.06,
+        "quantity": 3,
+        "subtotal": 729.18
+      },
+      {
+        "product_id": 29,
+        "product_name": "商品29 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product29/100/100",
+        "specs": "黑色 标准款",
+        "price": 3669.57,
+        "quantity": 2,
+        "subtotal": 7339.14
+      },
+      {
+        "product_id": 148,
+        "product_name": "商品148 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product148/100/100",
+        "specs": "蓝色 标准版",
+        "price": 230.76,
+        "quantity": 3,
+        "subtotal": 692.28
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "order_no": "ORD20261106000005",
+    "user_id": "user_0491",
+    "user_name": "吴十",
+    "status": "completed",
+    "total_amount": 8415.23,
+    "discount_amount": 679.48,
+    "pay_amount": 7735.75,
+    "shipping_fee": 0.0,
+    "receiver_name": "吴十",
+    "receiver_phone": "13831966825",
+    "receiver_address": "北京市朝阳区某某街道349号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF104986354553",
+    "pay_time": "2026-11-06 11:48:45",
+    "ship_time": "2026-11-08 09:48:45",
+    "deliver_time": "2026-11-13 09:48:45",
+    "remark": "",
+    "items": [
+      {
+        "product_id": 138,
+        "product_name": "商品138 - 标准版",
+        "product_image": "https://picsum.photos/seed/product138/100/100",
+        "specs": "蓝色 标准版",
+        "price": 2228.14,
+        "quantity": 2,
+        "subtotal": 4456.28
+      },
+      {
+        "product_id": 12,
+        "product_name": "商品12 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product12/100/100",
+        "specs": "黑色 标准款",
+        "price": 1329.71,
+        "quantity": 1,
+        "subtotal": 1329.71
+      },
+      {
+        "product_id": 183,
+        "product_name": "商品183 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product183/100/100",
+        "specs": "蓝色 标准版",
+        "price": 2629.24,
+        "quantity": 1,
+        "subtotal": 2629.24
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "order_no": "ORD20261013000006",
+    "user_id": "user_0113",
+    "user_name": "刘芳",
+    "status": "completed",
+    "total_amount": 1426.37,
+    "discount_amount": 102.56,
+    "pay_amount": 1323.81,
+    "shipping_fee": 0.0,
+    "receiver_name": "刘芳",
+    "receiver_phone": "13850126788",
+    "receiver_address": "上海市浦东新区某某街道104号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF343462872991",
+    "pay_time": "2026-10-14 07:35:45",
+    "ship_time": "2026-10-14 07:35:45",
+    "deliver_time": "2026-10-18 07:35:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "商品2 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product2/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1426.37,
+        "quantity": 1,
+        "subtotal": 1426.37
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "order_no": "ORD20261021000007",
+    "user_id": "user_0459",
+    "user_name": "钱七",
+    "status": "completed",
+    "total_amount": 6407.22,
+    "discount_amount": 186.1,
+    "pay_amount": 6221.12,
+    "shipping_fee": 0.0,
+    "receiver_name": "钱七",
+    "receiver_phone": "13827951919",
+    "receiver_address": "西安市雁塔区某某街道959号",
+    "logistics_company": "中通快递",
+    "logistics_no": "SF264061734366",
+    "pay_time": "2026-10-22 15:33:45",
+    "ship_time": "2026-10-23 15:33:45",
+    "deliver_time": "2026-10-24 15:33:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 113,
+        "product_name": "商品113 - 标准版",
+        "product_image": "https://picsum.photos/seed/product113/100/100",
+        "specs": "白色 高配版",
+        "price": 3203.61,
+        "quantity": 2,
+        "subtotal": 6407.22
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "order_no": "ORD20261014000008",
+    "user_id": "user_0180",
+    "user_name": "杨丽",
+    "status": "delivered",
+    "total_amount": 3241.14,
+    "discount_amount": 269.9,
+    "pay_amount": 2971.24,
+    "shipping_fee": 0.0,
+    "receiver_name": "杨丽",
+    "receiver_phone": "13824684242",
+    "receiver_address": "广州市天河区某某街道623号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF536489608577",
+    "pay_time": "2026-10-14 11:18:45",
+    "ship_time": "2026-10-17 05:18:45",
+    "deliver_time": "2026-10-21 05:18:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 125,
+        "product_name": "商品125 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product125/100/100",
+        "specs": "白色 高配版",
+        "price": 2434.59,
+        "quantity": 1,
+        "subtotal": 2434.59
+      },
+      {
+        "product_id": 101,
+        "product_name": "商品101 - 标准版",
+        "product_image": "https://picsum.photos/seed/product101/100/100",
+        "specs": "黑色 标准款",
+        "price": 268.85,
+        "quantity": 3,
+        "subtotal": 806.55
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "order_no": "ORD20261024000009",
+    "user_id": "user_0060",
+    "user_name": "周九",
+    "status": "cancelled",
+    "total_amount": 10459.23,
+    "discount_amount": 1258.31,
+    "pay_amount": 9200.92,
+    "shipping_fee": 0.0,
+    "receiver_name": "周九",
+    "receiver_phone": "13892596050",
+    "receiver_address": "上海市浦东新区某某街道881号",
+    "logistics_company": null,
+    "logistics_no": null,
+    "pay_time": null,
+    "ship_time": null,
+    "deliver_time": null,
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 196,
+        "product_name": "商品196 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product196/100/100",
+        "specs": "白色 高配版",
+        "price": 3486.41,
+        "quantity": 3,
+        "subtotal": 10459.23
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "order_no": "ORD20261103000010",
+    "user_id": "user_0521",
+    "user_name": "张三",
+    "status": "cancelled",
+    "total_amount": 12025.0,
+    "discount_amount": 958.15,
+    "pay_amount": 11066.85,
+    "shipping_fee": 0.0,
+    "receiver_name": "张三",
+    "receiver_phone": "13839886557",
+    "receiver_address": "西安市雁塔区某某街道226号",
+    "logistics_company": null,
+    "logistics_no": null,
+    "pay_time": null,
+    "ship_time": null,
+    "deliver_time": null,
+    "remark": "",
+    "items": [
+      {
+        "product_id": 56,
+        "product_name": "商品56 - 标准版",
+        "product_image": "https://picsum.photos/seed/product56/100/100",
+        "specs": "蓝色 标准版",
+        "price": 369.13,
+        "quantity": 3,
+        "subtotal": 1107.39
+      },
+      {
+        "product_id": 73,
+        "product_name": "商品73 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product73/100/100",
+        "specs": "黑色 标准款",
+        "price": 3434.61,
+        "quantity": 1,
+        "subtotal": 3434.61
+      },
+      {
+        "product_id": 87,
+        "product_name": "商品87 - 标准版",
+        "product_image": "https://picsum.photos/seed/product87/100/100",
+        "specs": "黑色 标准款",
+        "price": 3741.5,
+        "quantity": 2,
+        "subtotal": 7483.0
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "order_no": "ORD20261029000011",
+    "user_id": "user_0283",
+    "user_name": "王小明",
+    "status": "refunded",
+    "total_amount": 16206.78,
+    "discount_amount": 1098.29,
+    "pay_amount": 15108.49,
+    "shipping_fee": 0.0,
+    "receiver_name": "王小明",
+    "receiver_phone": "13885940226",
+    "receiver_address": "广州市天河区某某街道487号",
+    "logistics_company": "申通快递",
+    "logistics_no": "SF244281433745",
+    "pay_time": "2026-10-30 11:44:45",
+    "ship_time": "2026-10-31 13:44:45",
+    "deliver_time": "2026-11-03 13:44:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "商品3 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product3/100/100",
+        "specs": "黑色 标准款",
+        "price": 2895.73,
+        "quantity": 3,
+        "subtotal": 8687.19
+      },
+      {
+        "product_id": 30,
+        "product_name": "商品30 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product30/100/100",
+        "specs": "白色 高配版",
+        "price": 2023.79,
+        "quantity": 2,
+        "subtotal": 4047.58
+      },
+      {
+        "product_id": 21,
+        "product_name": "商品21 - 标准版",
+        "product_image": "https://picsum.photos/seed/product21/100/100",
+        "specs": "蓝色 标准版",
+        "price": 2545.89,
+        "quantity": 1,
+        "subtotal": 2545.89
+      },
+      {
+        "product_id": 69,
+        "product_name": "商品69 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product69/100/100",
+        "specs": "黑色 标准款",
+        "price": 463.06,
+        "quantity": 2,
+        "subtotal": 926.12
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "order_no": "ORD20261018000012",
+    "user_id": "user_0752",
+    "user_name": "孙八",
+    "status": "completed",
+    "total_amount": 14264.91,
+    "discount_amount": 48.45,
+    "pay_amount": 14216.46,
+    "shipping_fee": 0.0,
+    "receiver_name": "孙八",
+    "receiver_phone": "13811354461",
+    "receiver_address": "深圳市南山区某某街道43号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF723325942161",
+    "pay_time": "2026-10-18 23:40:45",
+    "ship_time": "2026-10-21 11:40:45",
+    "deliver_time": "2026-10-22 11:40:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 38,
+        "product_name": "商品38 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product38/100/100",
+        "specs": "白色 高配版",
+        "price": 1250.69,
+        "quantity": 3,
+        "subtotal": 3752.07
+      },
+      {
+        "product_id": 182,
+        "product_name": "商品182 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product182/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1801.46,
+        "quantity": 2,
+        "subtotal": 3602.92
+      },
+      {
+        "product_id": 160,
+        "product_name": "商品160 - 标准版",
+        "product_image": "https://picsum.photos/seed/product160/100/100",
+        "specs": "白色 高配版",
+        "price": 3454.96,
+        "quantity": 2,
+        "subtotal": 6909.92
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "order_no": "ORD20261103000013",
+    "user_id": "user_0521",
+    "user_name": "张三",
+    "status": "cancelled",
+    "total_amount": 11061.81,
+    "discount_amount": 1050.73,
+    "pay_amount": 10011.08,
+    "shipping_fee": 0.0,
+    "receiver_name": "张三",
+    "receiver_phone": "13880162258",
+    "receiver_address": "武汉市洪山区某某街道458号",
+    "logistics_company": null,
+    "logistics_no": null,
+    "pay_time": null,
+    "ship_time": null,
+    "deliver_time": null,
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 178,
+        "product_name": "商品178 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product178/100/100",
+        "specs": "黑色 标准款",
+        "price": 1485.21,
+        "quantity": 3,
+        "subtotal": 4455.63
+      },
+      {
+        "product_id": 98,
+        "product_name": "商品98 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product98/100/100",
+        "specs": "白色 高配版",
+        "price": 3303.09,
+        "quantity": 2,
+        "subtotal": 6606.18
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "order_no": "ORD20261009000014",
+    "user_id": "user_0060",
+    "user_name": "周九",
+    "status": "completed",
+    "total_amount": 2619.82,
+    "discount_amount": 308.36,
+    "pay_amount": 2311.46,
+    "shipping_fee": 0.0,
+    "receiver_name": "周九",
+    "receiver_phone": "13851456382",
+    "receiver_address": "广州市天河区某某街道908号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF274112793937",
+    "pay_time": "2026-10-09 08:46:45",
+    "ship_time": "2026-10-12 06:46:45",
+    "deliver_time": "2026-10-15 06:46:45",
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 37,
+        "product_name": "商品37 - 标准版",
+        "product_image": "https://picsum.photos/seed/product37/100/100",
+        "specs": "黑色 标准款",
+        "price": 1309.91,
+        "quantity": 2,
+        "subtotal": 2619.82
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "order_no": "ORD20261027000015",
+    "user_id": "user_0903",
+    "user_name": "赵六",
+    "status": "delivered",
+    "total_amount": 3943.59,
+    "discount_amount": 261.96,
+    "pay_amount": 3681.63,
+    "shipping_fee": 0.0,
+    "receiver_name": "赵六",
+    "receiver_phone": "13885506886",
+    "receiver_address": "北京市朝阳区某某街道918号",
+    "logistics_company": "韵达快递",
+    "logistics_no": "SF507059731510",
+    "pay_time": "2026-10-28 05:55:45",
+    "ship_time": "2026-10-28 07:55:45",
+    "deliver_time": "2026-11-03 07:55:45",
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 91,
+        "product_name": "商品91 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product91/100/100",
+        "specs": "蓝色 标准版",
+        "price": 326.09,
+        "quantity": 3,
+        "subtotal": 978.27
+      },
+      {
+        "product_id": 193,
+        "product_name": "商品193 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product193/100/100",
+        "specs": "白色 高配版",
+        "price": 1482.66,
+        "quantity": 2,
+        "subtotal": 2965.32
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "order_no": "ORD20261010000016",
+    "user_id": "user_0459",
+    "user_name": "钱七",
+    "status": "delivered",
+    "total_amount": 17555.18,
+    "discount_amount": 1450.44,
+    "pay_amount": 16104.74,
+    "shipping_fee": 0.0,
+    "receiver_name": "钱七",
+    "receiver_phone": "13873707677",
+    "receiver_address": "成都市武侯区某某街道163号",
+    "logistics_company": "申通快递",
+    "logistics_no": "SF341535841745",
+    "pay_time": "2026-10-10 16:57:45",
+    "ship_time": "2026-10-13 01:57:45",
+    "deliver_time": "2026-10-15 01:57:45",
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 130,
+        "product_name": "商品130 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product130/100/100",
+        "specs": "白色 高配版",
+        "price": 2821.37,
+        "quantity": 3,
+        "subtotal": 8464.11
+      },
+      {
+        "product_id": 71,
+        "product_name": "商品71 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product71/100/100",
+        "specs": "白色 高配版",
+        "price": 884.5,
+        "quantity": 1,
+        "subtotal": 884.5
+      },
+      {
+        "product_id": 92,
+        "product_name": "商品92 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product92/100/100",
+        "specs": "蓝色 标准版",
+        "price": 233.42,
+        "quantity": 2,
+        "subtotal": 466.84
+      },
+      {
+        "product_id": 59,
+        "product_name": "商品59 - 标准版",
+        "product_image": "https://picsum.photos/seed/product59/100/100",
+        "specs": "蓝色 标准版",
+        "price": 2579.91,
+        "quantity": 3,
+        "subtotal": 7739.73
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "order_no": "ORD20261020000017",
+    "user_id": "user_0459",
+    "user_name": "钱七",
+    "status": "refunded",
+    "total_amount": 16525.8,
+    "discount_amount": 77.38,
+    "pay_amount": 16448.42,
+    "shipping_fee": 0.0,
+    "receiver_name": "钱七",
+    "receiver_phone": "13831771838",
+    "receiver_address": "广州市天河区某某街道849号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF598324181640",
+    "pay_time": "2026-10-21 12:03:45",
+    "ship_time": "2026-10-22 15:03:45",
+    "deliver_time": "2026-10-27 15:03:45",
+    "remark": "",
+    "items": [
+      {
+        "product_id": 86,
+        "product_name": "商品86 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product86/100/100",
+        "specs": "黑色 标准款",
+        "price": 3786.0,
+        "quantity": 3,
+        "subtotal": 11358.0
+      },
+      {
+        "product_id": 67,
+        "product_name": "商品67 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product67/100/100",
+        "specs": "黑色 标准款",
+        "price": 1722.6,
+        "quantity": 3,
+        "subtotal": 5167.8
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "order_no": "ORD20261023000018",
+    "user_id": "user_0521",
+    "user_name": "张三",
+    "status": "completed",
+    "total_amount": 6092.44,
+    "discount_amount": 569.27,
+    "pay_amount": 5523.17,
+    "shipping_fee": 0.0,
+    "receiver_name": "张三",
+    "receiver_phone": "13854709647",
+    "receiver_address": "广州市天河区某某街道804号",
+    "logistics_company": "中通快递",
+    "logistics_no": "SF938807762989",
+    "pay_time": "2026-10-23 18:51:45",
+    "ship_time": "2026-10-24 02:51:45",
+    "deliver_time": "2026-10-29 02:51:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "商品22 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product22/100/100",
+        "specs": "黑色 标准款",
+        "price": 3046.22,
+        "quantity": 2,
+        "subtotal": 6092.44
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "order_no": "ORD20261015000019",
+    "user_id": "user_0180",
+    "user_name": "杨丽",
+    "status": "delivered",
+    "total_amount": 5832.29,
+    "discount_amount": 120.0,
+    "pay_amount": 5712.29,
+    "shipping_fee": 0.0,
+    "receiver_name": "杨丽",
+    "receiver_phone": "13851129508",
+    "receiver_address": "上海市浦东新区某某街道158号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF818701483402",
+    "pay_time": "2026-10-16 12:02:45",
+    "ship_time": "2026-10-16 17:02:45",
+    "deliver_time": "2026-10-21 17:02:45",
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 60,
+        "product_name": "商品60 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product60/100/100",
+        "specs": "黑色 标准款",
+        "price": 3278.5,
+        "quantity": 1,
+        "subtotal": 3278.5
+      },
+      {
+        "product_id": 89,
+        "product_name": "商品89 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product89/100/100",
+        "specs": "白色 高配版",
+        "price": 2553.79,
+        "quantity": 1,
+        "subtotal": 2553.79
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "order_no": "ORD20261022000020",
+    "user_id": "user_0459",
+    "user_name": "钱七",
+    "status": "refunded",
+    "total_amount": 20855.13,
+    "discount_amount": 976.46,
+    "pay_amount": 19878.67,
+    "shipping_fee": 0.0,
+    "receiver_name": "钱七",
+    "receiver_phone": "13829440299",
+    "receiver_address": "武汉市洪山区某某街道9号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF155552969399",
+    "pay_time": "2026-10-22 16:30:45",
+    "ship_time": "2026-10-25 02:30:45",
+    "deliver_time": "2026-10-29 02:30:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 193,
+        "product_name": "商品193 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product193/100/100",
+        "specs": "白色 高配版",
+        "price": 3340.08,
+        "quantity": 1,
+        "subtotal": 3340.08
+      },
+      {
+        "product_id": 52,
+        "product_name": "商品52 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product52/100/100",
+        "specs": "黑色 标准款",
+        "price": 3701.31,
+        "quantity": 2,
+        "subtotal": 7402.62
+      },
+      {
+        "product_id": 150,
+        "product_name": "商品150 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product150/100/100",
+        "specs": "蓝色 标准版",
+        "price": 3370.81,
+        "quantity": 3,
+        "subtotal": 10112.43
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "order_no": "ORD20261105000021",
+    "user_id": "user_0937",
+    "user_name": "徐静",
+    "status": "delivered",
+    "total_amount": 7459.99,
+    "discount_amount": 36.6,
+    "pay_amount": 7423.39,
+    "shipping_fee": 0.0,
+    "receiver_name": "徐静",
+    "receiver_phone": "13897376350",
+    "receiver_address": "杭州市西湖区某某街道385号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF722152980276",
+    "pay_time": "2026-11-06 15:47:45",
+    "ship_time": "2026-11-06 18:47:45",
+    "deliver_time": "2026-11-11 18:47:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 70,
+        "product_name": "商品70 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product70/100/100",
+        "specs": "白色 高配版",
+        "price": 3888.68,
+        "quantity": 1,
+        "subtotal": 3888.68
+      },
+      {
+        "product_id": 105,
+        "product_name": "商品105 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product105/100/100",
+        "specs": "白色 高配版",
+        "price": 789.44,
+        "quantity": 2,
+        "subtotal": 1578.88
+      },
+      {
+        "product_id": 134,
+        "product_name": "商品134 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product134/100/100",
+        "specs": "黑色 标准款",
+        "price": 1992.43,
+        "quantity": 1,
+        "subtotal": 1992.43
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "order_no": "ORD20261009000022",
+    "user_id": "user_0283",
+    "user_name": "王小明",
+    "status": "completed",
+    "total_amount": 19589.02,
+    "discount_amount": 2156.15,
+    "pay_amount": 17432.87,
+    "shipping_fee": 0.0,
+    "receiver_name": "王小明",
+    "receiver_phone": "13813315009",
+    "receiver_address": "西安市雁塔区某某街道931号",
+    "logistics_company": "顺丰速运",
+    "logistics_no": "SF273166522383",
+    "pay_time": "2026-10-10 00:44:45",
+    "ship_time": "2026-10-11 06:44:45",
+    "deliver_time": "2026-10-12 06:44:45",
+    "remark": "",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "商品13 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product13/100/100",
+        "specs": "黑色 标准款",
+        "price": 822.71,
+        "quantity": 2,
+        "subtotal": 1645.42
+      },
+      {
+        "product_id": 93,
+        "product_name": "商品93 - 标准版",
+        "product_image": "https://picsum.photos/seed/product93/100/100",
+        "specs": "蓝色 标准版",
+        "price": 3487.89,
+        "quantity": 2,
+        "subtotal": 6975.78
+      },
+      {
+        "product_id": 159,
+        "product_name": "商品159 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product159/100/100",
+        "specs": "黑色 标准款",
+        "price": 3655.94,
+        "quantity": 3,
+        "subtotal": 10967.82
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "order_no": "ORD20261029000023",
+    "user_id": "user_0113",
+    "user_name": "刘芳",
+    "status": "completed",
+    "total_amount": 7043.25,
+    "discount_amount": 436.51,
+    "pay_amount": 6606.74,
+    "shipping_fee": 0.0,
+    "receiver_name": "刘芳",
+    "receiver_phone": "13841217011",
+    "receiver_address": "深圳市南山区某某街道107号",
+    "logistics_company": "韵达快递",
+    "logistics_no": "SF556898355555",
+    "pay_time": "2026-10-30 01:16:45",
+    "ship_time": "2026-11-01 20:16:45",
+    "deliver_time": "2026-11-05 20:16:45",
+    "remark": "",
+    "items": [
+      {
+        "product_id": 43,
+        "product_name": "商品43 - 标准版",
+        "product_image": "https://picsum.photos/seed/product43/100/100",
+        "specs": "蓝色 标准版",
+        "price": 2347.75,
+        "quantity": 3,
+        "subtotal": 7043.25
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "order_no": "ORD20261015000024",
+    "user_id": "user_0220",
+    "user_name": "王五",
+    "status": "delivered",
+    "total_amount": 3069.76,
+    "discount_amount": 290.93,
+    "pay_amount": 2778.83,
+    "shipping_fee": 0.0,
+    "receiver_name": "王五",
+    "receiver_phone": "13839587580",
+    "receiver_address": "成都市武侯区某某街道26号",
+    "logistics_company": "申通快递",
+    "logistics_no": "SF670419028962",
+    "pay_time": "2026-10-15 16:39:45",
+    "ship_time": "2026-10-18 05:39:45",
+    "deliver_time": "2026-10-18 05:39:45",
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "商品23 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product23/100/100",
+        "specs": "蓝色 标准版",
+        "price": 3069.76,
+        "quantity": 1,
+        "subtotal": 3069.76
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "order_no": "ORD20261009000025",
+    "user_id": "user_0937",
+    "user_name": "徐静",
+    "status": "shipped",
+    "total_amount": 1144.95,
+    "discount_amount": 98.94,
+    "pay_amount": 1046.01,
+    "shipping_fee": 0.0,
+    "receiver_name": "徐静",
+    "receiver_phone": "13837559677",
+    "receiver_address": "广州市天河区某某街道385号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF447344578531",
+    "pay_time": "2026-10-10 00:37:45",
+    "ship_time": "2026-10-10 06:37:45",
+    "deliver_time": null,
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 148,
+        "product_name": "商品148 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product148/100/100",
+        "specs": "蓝色 标准版",
+        "price": 381.65,
+        "quantity": 3,
+        "subtotal": 1144.95
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "order_no": "ORD20261011000026",
+    "user_id": "user_0331",
+    "user_name": "李四",
+    "status": "completed",
+    "total_amount": 11916.42,
+    "discount_amount": 1530.32,
+    "pay_amount": 10386.1,
+    "shipping_fee": 0.0,
+    "receiver_name": "李四",
+    "receiver_phone": "13837962941",
+    "receiver_address": "广州市天河区某某街道583号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF660560834413",
+    "pay_time": "2026-10-11 10:27:45",
+    "ship_time": "2026-10-12 04:27:45",
+    "deliver_time": "2026-10-14 04:27:45",
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 87,
+        "product_name": "商品87 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product87/100/100",
+        "specs": "蓝色 标准版",
+        "price": 215.18,
+        "quantity": 2,
+        "subtotal": 430.36
+      },
+      {
+        "product_id": 169,
+        "product_name": "商品169 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product169/100/100",
+        "specs": "白色 高配版",
+        "price": 1227.84,
+        "quantity": 1,
+        "subtotal": 1227.84
+      },
+      {
+        "product_id": 56,
+        "product_name": "商品56 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product56/100/100",
+        "specs": "白色 高配版",
+        "price": 2534.66,
+        "quantity": 1,
+        "subtotal": 2534.66
+      },
+      {
+        "product_id": 78,
+        "product_name": "商品78 - 标准版",
+        "product_image": "https://picsum.photos/seed/product78/100/100",
+        "specs": "黑色 标准款",
+        "price": 2574.52,
+        "quantity": 3,
+        "subtotal": 7723.56
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "order_no": "ORD20261031000027",
+    "user_id": "user_0937",
+    "user_name": "徐静",
+    "status": "completed",
+    "total_amount": 6195.62,
+    "discount_amount": 139.42,
+    "pay_amount": 6056.2,
+    "shipping_fee": 0.0,
+    "receiver_name": "徐静",
+    "receiver_phone": "13820769940",
+    "receiver_address": "广州市天河区某某街道765号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF715576521790",
+    "pay_time": "2026-10-31 22:00:45",
+    "ship_time": "2026-11-03 19:00:45",
+    "deliver_time": "2026-11-05 19:00:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 61,
+        "product_name": "商品61 - 标准版",
+        "product_image": "https://picsum.photos/seed/product61/100/100",
+        "specs": "白色 高配版",
+        "price": 2367.98,
+        "quantity": 2,
+        "subtotal": 4735.96
+      },
+      {
+        "product_id": 139,
+        "product_name": "商品139 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product139/100/100",
+        "specs": "白色 高配版",
+        "price": 729.83,
+        "quantity": 2,
+        "subtotal": 1459.66
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "order_no": "ORD20261019000028",
+    "user_id": "user_0937",
+    "user_name": "徐静",
+    "status": "refunded",
+    "total_amount": 8163.27,
+    "discount_amount": 558.1,
+    "pay_amount": 7605.17,
+    "shipping_fee": 0.0,
+    "receiver_name": "徐静",
+    "receiver_phone": "13858683035",
+    "receiver_address": "上海市浦东新区某某街道497号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF881282776512",
+    "pay_time": "2026-10-19 16:06:45",
+    "ship_time": "2026-10-21 00:06:45",
+    "deliver_time": "2026-10-24 00:06:45",
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "商品25 - 标准版",
+        "product_image": "https://picsum.photos/seed/product25/100/100",
+        "specs": "黑色 标准款",
+        "price": 1931.22,
+        "quantity": 2,
+        "subtotal": 3862.44
+      },
+      {
+        "product_id": 21,
+        "product_name": "商品21 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product21/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1433.61,
+        "quantity": 3,
+        "subtotal": 4300.83
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "order_no": "ORD20261007000029",
+    "user_id": "user_0491",
+    "user_name": "吴十",
+    "status": "paid",
+    "total_amount": 16881.84,
+    "discount_amount": 2059.32,
+    "pay_amount": 14822.52,
+    "shipping_fee": 0.0,
+    "receiver_name": "吴十",
+    "receiver_phone": "13850680319",
+    "receiver_address": "杭州市西湖区某某街道905号",
+    "logistics_company": null,
+    "logistics_no": null,
+    "pay_time": "2026-10-08 17:21:45",
+    "ship_time": null,
+    "deliver_time": null,
+    "remark": "",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "商品6 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product6/100/100",
+        "specs": "蓝色 标准版",
+        "price": 2476.05,
+        "quantity": 2,
+        "subtotal": 4952.1
+      },
+      {
+        "product_id": 82,
+        "product_name": "商品82 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product82/100/100",
+        "specs": "蓝色 标准版",
+        "price": 3976.58,
+        "quantity": 3,
+        "subtotal": 11929.74
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "order_no": "ORD20261017000030",
+    "user_id": "user_0752",
+    "user_name": "孙八",
+    "status": "completed",
+    "total_amount": 4814.3,
+    "discount_amount": 638.29,
+    "pay_amount": 4176.01,
+    "shipping_fee": 0.0,
+    "receiver_name": "孙八",
+    "receiver_phone": "13815585420",
+    "receiver_address": "西安市雁塔区某某街道129号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF501092782545",
+    "pay_time": "2026-10-18 18:55:45",
+    "ship_time": "2026-10-19 22:55:45",
+    "deliver_time": "2026-10-21 22:55:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "商品4 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product4/100/100",
+        "specs": "白色 高配版",
+        "price": 2407.15,
+        "quantity": 2,
+        "subtotal": 4814.3
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "order_no": "ORD20261030000031",
+    "user_id": "user_0283",
+    "user_name": "王小明",
+    "status": "completed",
+    "total_amount": 1819.48,
+    "discount_amount": 68.13,
+    "pay_amount": 1751.35,
+    "shipping_fee": 0.0,
+    "receiver_name": "王小明",
+    "receiver_phone": "13849584291",
+    "receiver_address": "北京市朝阳区某某街道472号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF649627427010",
+    "pay_time": "2026-10-31 03:25:45",
+    "ship_time": "2026-11-01 23:25:45",
+    "deliver_time": "2026-11-02 23:25:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 158,
+        "product_name": "商品158 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product158/100/100",
+        "specs": "白色 高配版",
+        "price": 1819.48,
+        "quantity": 1,
+        "subtotal": 1819.48
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "order_no": "ORD20261012000032",
+    "user_id": "user_0903",
+    "user_name": "赵六",
+    "status": "completed",
+    "total_amount": 30000.91,
+    "discount_amount": 1325.11,
+    "pay_amount": 28675.8,
+    "shipping_fee": 0.0,
+    "receiver_name": "赵六",
+    "receiver_phone": "13866958129",
+    "receiver_address": "深圳市南山区某某街道57号",
+    "logistics_company": "申通快递",
+    "logistics_no": "SF757788045025",
+    "pay_time": "2026-10-13 07:49:45",
+    "ship_time": "2026-10-15 13:49:45",
+    "deliver_time": "2026-10-19 13:49:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 84,
+        "product_name": "商品84 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product84/100/100",
+        "specs": "白色 高配版",
+        "price": 3866.01,
+        "quantity": 2,
+        "subtotal": 7732.02
+      },
+      {
+        "product_id": 28,
+        "product_name": "商品28 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product28/100/100",
+        "specs": "黑色 标准款",
+        "price": 3892.06,
+        "quantity": 3,
+        "subtotal": 11676.18
+      },
+      {
+        "product_id": 98,
+        "product_name": "商品98 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product98/100/100",
+        "specs": "白色 高配版",
+        "price": 493.12,
+        "quantity": 1,
+        "subtotal": 493.12
+      },
+      {
+        "product_id": 197,
+        "product_name": "商品197 - 标准版",
+        "product_image": "https://picsum.photos/seed/product197/100/100",
+        "specs": "蓝色 标准版",
+        "price": 3366.53,
+        "quantity": 3,
+        "subtotal": 10099.59
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "order_no": "ORD20261028000033",
+    "user_id": "user_0937",
+    "user_name": "徐静",
+    "status": "completed",
+    "total_amount": 6657.3,
+    "discount_amount": 667.8,
+    "pay_amount": 5989.5,
+    "shipping_fee": 0.0,
+    "receiver_name": "徐静",
+    "receiver_phone": "13822505200",
+    "receiver_address": "武汉市洪山区某某街道238号",
+    "logistics_company": "申通快递",
+    "logistics_no": "SF121445730018",
+    "pay_time": "2026-10-28 15:56:45",
+    "ship_time": "2026-10-30 13:56:45",
+    "deliver_time": "2026-11-01 13:56:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "商品24 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product24/100/100",
+        "specs": "蓝色 标准版",
+        "price": 3328.65,
+        "quantity": 2,
+        "subtotal": 6657.3
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "order_no": "ORD20261107000034",
+    "user_id": "user_0040",
+    "user_name": "陈强",
+    "status": "completed",
+    "total_amount": 12850.73,
+    "discount_amount": 487.39,
+    "pay_amount": 12363.34,
+    "shipping_fee": 0.0,
+    "receiver_name": "陈强",
+    "receiver_phone": "13891766216",
+    "receiver_address": "北京市朝阳区某某街道594号",
+    "logistics_company": "顺丰速运",
+    "logistics_no": "SF804128503967",
+    "pay_time": "2026-11-07 18:08:45",
+    "ship_time": "2026-11-10 06:08:45",
+    "deliver_time": "2026-11-13 06:08:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 45,
+        "product_name": "商品45 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product45/100/100",
+        "specs": "白色 高配版",
+        "price": 119.11,
+        "quantity": 2,
+        "subtotal": 238.22
+      },
+      {
+        "product_id": 132,
+        "product_name": "商品132 - 标准版",
+        "product_image": "https://picsum.photos/seed/product132/100/100",
+        "specs": "蓝色 标准版",
+        "price": 3341.97,
+        "quantity": 3,
+        "subtotal": 10025.91
+      },
+      {
+        "product_id": 45,
+        "product_name": "商品45 - 标准版",
+        "product_image": "https://picsum.photos/seed/product45/100/100",
+        "specs": "蓝色 标准版",
+        "price": 862.2,
+        "quantity": 3,
+        "subtotal": 2586.6
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "order_no": "ORD20261106000035",
+    "user_id": "user_0752",
+    "user_name": "孙八",
+    "status": "shipped",
+    "total_amount": 6000.06,
+    "discount_amount": 736.45,
+    "pay_amount": 5263.61,
+    "shipping_fee": 0.0,
+    "receiver_name": "孙八",
+    "receiver_phone": "13815996049",
+    "receiver_address": "西安市雁塔区某某街道752号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF402358958670",
+    "pay_time": "2026-11-06 04:12:45",
+    "ship_time": "2026-11-07 01:12:45",
+    "deliver_time": null,
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 158,
+        "product_name": "商品158 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product158/100/100",
+        "specs": "白色 高配版",
+        "price": 3825.87,
+        "quantity": 1,
+        "subtotal": 3825.87
+      },
+      {
+        "product_id": 1,
+        "product_name": "商品1 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product1/100/100",
+        "specs": "蓝色 标准版",
+        "price": 724.73,
+        "quantity": 3,
+        "subtotal": 2174.19
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "order_no": "ORD20261010000036",
+    "user_id": "user_0521",
+    "user_name": "张三",
+    "status": "refunded",
+    "total_amount": 421.02,
+    "discount_amount": 21.23,
+    "pay_amount": 399.79,
+    "shipping_fee": 0.0,
+    "receiver_name": "张三",
+    "receiver_phone": "13848934984",
+    "receiver_address": "广州市天河区某某街道21号",
+    "logistics_company": "中通快递",
+    "logistics_no": "SF459846606384",
+    "pay_time": "2026-10-11 09:27:45",
+    "ship_time": "2026-10-11 16:27:45",
+    "deliver_time": "2026-10-14 16:27:45",
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 76,
+        "product_name": "商品76 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product76/100/100",
+        "specs": "蓝色 标准版",
+        "price": 140.34,
+        "quantity": 3,
+        "subtotal": 421.02
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "order_no": "ORD20261104000037",
+    "user_id": "user_0903",
+    "user_name": "赵六",
+    "status": "delivered",
+    "total_amount": 13871.12,
+    "discount_amount": 1762.27,
+    "pay_amount": 12108.85,
+    "shipping_fee": 0.0,
+    "receiver_name": "赵六",
+    "receiver_phone": "13896182733",
+    "receiver_address": "成都市武侯区某某街道644号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF620479837877",
+    "pay_time": "2026-11-04 21:42:45",
+    "ship_time": "2026-11-06 19:42:45",
+    "deliver_time": "2026-11-10 19:42:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 200,
+        "product_name": "商品200 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product200/100/100",
+        "specs": "蓝色 标准版",
+        "price": 3802.13,
+        "quantity": 2,
+        "subtotal": 7604.26
+      },
+      {
+        "product_id": 112,
+        "product_name": "商品112 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product112/100/100",
+        "specs": "黑色 标准款",
+        "price": 3133.43,
+        "quantity": 2,
+        "subtotal": 6266.86
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "order_no": "ORD20261008000038",
+    "user_id": "user_0283",
+    "user_name": "王小明",
+    "status": "completed",
+    "total_amount": 6229.91,
+    "discount_amount": 385.6,
+    "pay_amount": 5844.31,
+    "shipping_fee": 0.0,
+    "receiver_name": "王小明",
+    "receiver_phone": "13836358962",
+    "receiver_address": "武汉市洪山区某某街道422号",
+    "logistics_company": "中通快递",
+    "logistics_no": "SF907521943324",
+    "pay_time": "2026-10-08 22:14:45",
+    "ship_time": "2026-10-10 07:14:45",
+    "deliver_time": "2026-10-12 07:14:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 128,
+        "product_name": "商品128 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product128/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1160.62,
+        "quantity": 3,
+        "subtotal": 3481.86
+      },
+      {
+        "product_id": 158,
+        "product_name": "商品158 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product158/100/100",
+        "specs": "黑色 标准款",
+        "price": 451.32,
+        "quantity": 2,
+        "subtotal": 902.64
+      },
+      {
+        "product_id": 99,
+        "product_name": "商品99 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product99/100/100",
+        "specs": "蓝色 标准版",
+        "price": 363.73,
+        "quantity": 2,
+        "subtotal": 727.46
+      },
+      {
+        "product_id": 136,
+        "product_name": "商品136 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product136/100/100",
+        "specs": "蓝色 标准版",
+        "price": 372.65,
+        "quantity": 3,
+        "subtotal": 1117.95
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "order_no": "ORD20261020000039",
+    "user_id": "user_0220",
+    "user_name": "王五",
+    "status": "delivered",
+    "total_amount": 4466.94,
+    "discount_amount": 339.32,
+    "pay_amount": 4127.62,
+    "shipping_fee": 0.0,
+    "receiver_name": "王五",
+    "receiver_phone": "13863135164",
+    "receiver_address": "广州市天河区某某街道259号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF576635096055",
+    "pay_time": "2026-10-20 20:53:45",
+    "ship_time": "2026-10-22 07:53:45",
+    "deliver_time": "2026-10-24 07:53:45",
+    "remark": "",
+    "items": [
+      {
+        "product_id": 85,
+        "product_name": "商品85 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product85/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1488.98,
+        "quantity": 3,
+        "subtotal": 4466.94
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "order_no": "ORD20261024000040",
+    "user_id": "user_0752",
+    "user_name": "孙八",
+    "status": "completed",
+    "total_amount": 4163.32,
+    "discount_amount": 402.48,
+    "pay_amount": 3760.84,
+    "shipping_fee": 0.0,
+    "receiver_name": "孙八",
+    "receiver_phone": "13844860536",
+    "receiver_address": "上海市浦东新区某某街道39号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF720180914516",
+    "pay_time": "2026-10-25 09:29:45",
+    "ship_time": "2026-10-25 17:29:45",
+    "deliver_time": "2026-10-30 17:29:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "商品28 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product28/100/100",
+        "specs": "白色 高配版",
+        "price": 549.74,
+        "quantity": 2,
+        "subtotal": 1099.48
+      },
+      {
+        "product_id": 84,
+        "product_name": "商品84 - 标准版",
+        "product_image": "https://picsum.photos/seed/product84/100/100",
+        "specs": "白色 高配版",
+        "price": 3063.84,
+        "quantity": 1,
+        "subtotal": 3063.84
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "order_no": "ORD20261012000041",
+    "user_id": "user_0283",
+    "user_name": "王小明",
+    "status": "completed",
+    "total_amount": 24099.45,
+    "discount_amount": 3555.19,
+    "pay_amount": 20544.26,
+    "shipping_fee": 0.0,
+    "receiver_name": "王小明",
+    "receiver_phone": "13869904934",
+    "receiver_address": "西安市雁塔区某某街道919号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF330433679111",
+    "pay_time": "2026-10-12 16:32:45",
+    "ship_time": "2026-10-13 02:32:45",
+    "deliver_time": "2026-10-16 02:32:45",
+    "remark": "",
+    "items": [
+      {
+        "product_id": 184,
+        "product_name": "商品184 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product184/100/100",
+        "specs": "黑色 标准款",
+        "price": 1774.23,
+        "quantity": 3,
+        "subtotal": 5322.69
+      },
+      {
+        "product_id": 136,
+        "product_name": "商品136 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product136/100/100",
+        "specs": "白色 高配版",
+        "price": 3870.09,
+        "quantity": 2,
+        "subtotal": 7740.18
+      },
+      {
+        "product_id": 57,
+        "product_name": "商品57 - 标准版",
+        "product_image": "https://picsum.photos/seed/product57/100/100",
+        "specs": "白色 高配版",
+        "price": 3678.86,
+        "quantity": 3,
+        "subtotal": 11036.58
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "order_no": "ORD20261022000042",
+    "user_id": "user_0937",
+    "user_name": "徐静",
+    "status": "paid",
+    "total_amount": 14692.88,
+    "discount_amount": 1182.51,
+    "pay_amount": 13510.37,
+    "shipping_fee": 0.0,
+    "receiver_name": "徐静",
+    "receiver_phone": "13853507769",
+    "receiver_address": "深圳市南山区某某街道730号",
+    "logistics_company": null,
+    "logistics_no": null,
+    "pay_time": "2026-10-22 14:15:45",
+    "ship_time": null,
+    "deliver_time": null,
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 48,
+        "product_name": "商品48 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product48/100/100",
+        "specs": "蓝色 标准版",
+        "price": 889.54,
+        "quantity": 3,
+        "subtotal": 2668.62
+      },
+      {
+        "product_id": 118,
+        "product_name": "商品118 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product118/100/100",
+        "specs": "白色 高配版",
+        "price": 3720.8,
+        "quantity": 2,
+        "subtotal": 7441.6
+      },
+      {
+        "product_id": 3,
+        "product_name": "商品3 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product3/100/100",
+        "specs": "黑色 标准款",
+        "price": 1743.81,
+        "quantity": 2,
+        "subtotal": 3487.62
+      },
+      {
+        "product_id": 32,
+        "product_name": "商品32 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product32/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1095.04,
+        "quantity": 1,
+        "subtotal": 1095.04
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "order_no": "ORD20261011000043",
+    "user_id": "user_0283",
+    "user_name": "王小明",
+    "status": "refunded",
+    "total_amount": 1240.75,
+    "discount_amount": 18.77,
+    "pay_amount": 1221.98,
+    "shipping_fee": 0.0,
+    "receiver_name": "王小明",
+    "receiver_phone": "13811859077",
+    "receiver_address": "北京市朝阳区某某街道561号",
+    "logistics_company": "韵达快递",
+    "logistics_no": "SF532727878980",
+    "pay_time": "2026-10-11 14:42:45",
+    "ship_time": "2026-10-13 03:42:45",
+    "deliver_time": "2026-10-18 03:42:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 105,
+        "product_name": "商品105 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product105/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1240.75,
+        "quantity": 1,
+        "subtotal": 1240.75
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "order_no": "ORD20261016000044",
+    "user_id": "user_0752",
+    "user_name": "孙八",
+    "status": "delivered",
+    "total_amount": 21238.03,
+    "discount_amount": 2592.89,
+    "pay_amount": 18645.14,
+    "shipping_fee": 0.0,
+    "receiver_name": "孙八",
+    "receiver_phone": "13859246039",
+    "receiver_address": "深圳市南山区某某街道388号",
+    "logistics_company": "韵达快递",
+    "logistics_no": "SF206495577712",
+    "pay_time": "2026-10-16 14:59:45",
+    "ship_time": "2026-10-19 06:59:45",
+    "deliver_time": "2026-10-20 06:59:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 138,
+        "product_name": "商品138 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product138/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1747.88,
+        "quantity": 2,
+        "subtotal": 3495.76
+      },
+      {
+        "product_id": 148,
+        "product_name": "商品148 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product148/100/100",
+        "specs": "黑色 标准款",
+        "price": 1007.56,
+        "quantity": 2,
+        "subtotal": 2015.12
+      },
+      {
+        "product_id": 135,
+        "product_name": "商品135 - 标准版",
+        "product_image": "https://picsum.photos/seed/product135/100/100",
+        "specs": "蓝色 标准版",
+        "price": 2292.5,
+        "quantity": 2,
+        "subtotal": 4585.0
+      },
+      {
+        "product_id": 59,
+        "product_name": "商品59 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product59/100/100",
+        "specs": "白色 高配版",
+        "price": 3714.05,
+        "quantity": 3,
+        "subtotal": 11142.15
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "order_no": "ORD20261010000045",
+    "user_id": "user_0442",
+    "user_name": "李小红",
+    "status": "completed",
+    "total_amount": 4681.05,
+    "discount_amount": 640.37,
+    "pay_amount": 4040.68,
+    "shipping_fee": 0.0,
+    "receiver_name": "李小红",
+    "receiver_phone": "13859383693",
+    "receiver_address": "深圳市南山区某某街道699号",
+    "logistics_company": "中通快递",
+    "logistics_no": "SF198608330266",
+    "pay_time": "2026-10-11 09:04:45",
+    "ship_time": "2026-10-13 21:04:45",
+    "deliver_time": "2026-10-16 21:04:45",
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "商品1 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product1/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1560.35,
+        "quantity": 3,
+        "subtotal": 4681.05
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "order_no": "ORD20261025000046",
+    "user_id": "user_0040",
+    "user_name": "陈强",
+    "status": "completed",
+    "total_amount": 6615.18,
+    "discount_amount": 769.08,
+    "pay_amount": 5846.1,
+    "shipping_fee": 0.0,
+    "receiver_name": "陈强",
+    "receiver_phone": "13822043195",
+    "receiver_address": "西安市雁塔区某某街道275号",
+    "logistics_company": "申通快递",
+    "logistics_no": "SF841498681228",
+    "pay_time": "2026-10-26 02:53:45",
+    "ship_time": "2026-10-27 21:53:45",
+    "deliver_time": "2026-11-01 21:53:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 144,
+        "product_name": "商品144 - 标准版",
+        "product_image": "https://picsum.photos/seed/product144/100/100",
+        "specs": "黑色 标准款",
+        "price": 949.55,
+        "quantity": 1,
+        "subtotal": 949.55
+      },
+      {
+        "product_id": 109,
+        "product_name": "商品109 - 标准版",
+        "product_image": "https://picsum.photos/seed/product109/100/100",
+        "specs": "白色 高配版",
+        "price": 3320.78,
+        "quantity": 1,
+        "subtotal": 3320.78
+      },
+      {
+        "product_id": 19,
+        "product_name": "商品19 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product19/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1978.91,
+        "quantity": 1,
+        "subtotal": 1978.91
+      },
+      {
+        "product_id": 176,
+        "product_name": "商品176 - 标准版",
+        "product_image": "https://picsum.photos/seed/product176/100/100",
+        "specs": "白色 高配版",
+        "price": 182.97,
+        "quantity": 2,
+        "subtotal": 365.94
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "order_no": "ORD20261017000047",
+    "user_id": "user_0166",
+    "user_name": "郑十一",
+    "status": "completed",
+    "total_amount": 3117.33,
+    "discount_amount": 432.65,
+    "pay_amount": 2684.68,
+    "shipping_fee": 0.0,
+    "receiver_name": "郑十一",
+    "receiver_phone": "13882365031",
+    "receiver_address": "深圳市南山区某某街道729号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF251712583444",
+    "pay_time": "2026-10-17 16:52:45",
+    "ship_time": "2026-10-20 04:52:45",
+    "deliver_time": "2026-10-20 04:52:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 161,
+        "product_name": "商品161 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product161/100/100",
+        "specs": "白色 高配版",
+        "price": 3117.33,
+        "quantity": 1,
+        "subtotal": 3117.33
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "order_no": "ORD20261024000048",
+    "user_id": "user_0442",
+    "user_name": "李小红",
+    "status": "completed",
+    "total_amount": 1545.58,
+    "discount_amount": 121.11,
+    "pay_amount": 1424.47,
+    "shipping_fee": 0.0,
+    "receiver_name": "李小红",
+    "receiver_phone": "13880027044",
+    "receiver_address": "深圳市南山区某某街道928号",
+    "logistics_company": "中通快递",
+    "logistics_no": "SF103789008606",
+    "pay_time": "2026-10-24 17:53:45",
+    "ship_time": "2026-10-26 06:53:45",
+    "deliver_time": "2026-10-28 06:53:45",
+    "remark": "",
+    "items": [
+      {
+        "product_id": 133,
+        "product_name": "商品133 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product133/100/100",
+        "specs": "蓝色 标准版",
+        "price": 772.79,
+        "quantity": 2,
+        "subtotal": 1545.58
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "order_no": "ORD20261017000049",
+    "user_id": "user_0180",
+    "user_name": "杨丽",
+    "status": "completed",
+    "total_amount": 4772.78,
+    "discount_amount": 73.31,
+    "pay_amount": 4699.47,
+    "shipping_fee": 0.0,
+    "receiver_name": "杨丽",
+    "receiver_phone": "13860061152",
+    "receiver_address": "北京市朝阳区某某街道6号",
+    "logistics_company": "韵达快递",
+    "logistics_no": "SF553346654742",
+    "pay_time": "2026-10-17 08:04:45",
+    "ship_time": "2026-10-18 04:04:45",
+    "deliver_time": "2026-10-20 04:04:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 181,
+        "product_name": "商品181 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product181/100/100",
+        "specs": "黑色 标准款",
+        "price": 2386.39,
+        "quantity": 2,
+        "subtotal": 4772.78
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "order_no": "ORD20261016000050",
+    "user_id": "user_0060",
+    "user_name": "周九",
+    "status": "delivered",
+    "total_amount": 7280.92,
+    "discount_amount": 797.13,
+    "pay_amount": 6483.79,
+    "shipping_fee": 0.0,
+    "receiver_name": "周九",
+    "receiver_phone": "13896290618",
+    "receiver_address": "西安市雁塔区某某街道258号",
+    "logistics_company": "中通快递",
+    "logistics_no": "SF467634704422",
+    "pay_time": "2026-10-17 05:43:45",
+    "ship_time": "2026-10-18 17:43:45",
+    "deliver_time": "2026-10-20 17:43:45",
+    "remark": "",
+    "items": [
+      {
+        "product_id": 140,
+        "product_name": "商品140 - 标准版",
+        "product_image": "https://picsum.photos/seed/product140/100/100",
+        "specs": "白色 高配版",
+        "price": 1392.17,
+        "quantity": 2,
+        "subtotal": 2784.34
+      },
+      {
+        "product_id": 19,
+        "product_name": "商品19 - 标准版",
+        "product_image": "https://picsum.photos/seed/product19/100/100",
+        "specs": "蓝色 标准版",
+        "price": 2248.29,
+        "quantity": 2,
+        "subtotal": 4496.58
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "order_no": "ORD20261028000051",
+    "user_id": "user_0491",
+    "user_name": "吴十",
+    "status": "cancelled",
+    "total_amount": 2535.51,
+    "discount_amount": 210.82,
+    "pay_amount": 2324.69,
+    "shipping_fee": 0.0,
+    "receiver_name": "吴十",
+    "receiver_phone": "13824155393",
+    "receiver_address": "北京市朝阳区某某街道956号",
+    "logistics_company": null,
+    "logistics_no": null,
+    "pay_time": null,
+    "ship_time": null,
+    "deliver_time": null,
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "商品9 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product9/100/100",
+        "specs": "蓝色 标准版",
+        "price": 845.17,
+        "quantity": 3,
+        "subtotal": 2535.51
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "order_no": "ORD20261009000052",
+    "user_id": "user_0040",
+    "user_name": "陈强",
+    "status": "pending",
+    "total_amount": 1199.38,
+    "discount_amount": 20.13,
+    "pay_amount": 1179.25,
+    "shipping_fee": 0.0,
+    "receiver_name": "陈强",
+    "receiver_phone": "13885782335",
+    "receiver_address": "成都市武侯区某某街道167号",
+    "logistics_company": null,
+    "logistics_no": null,
+    "pay_time": null,
+    "ship_time": null,
+    "deliver_time": null,
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "商品32 - 豪华套装",
+        "product_image": "https://picsum.photos/seed/product32/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1199.38,
+        "quantity": 1,
+        "subtotal": 1199.38
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "order_no": "ORD20261026000053",
+    "user_id": "user_0113",
+    "user_name": "刘芳",
+    "status": "completed",
+    "total_amount": 12910.28,
+    "discount_amount": 1560.44,
+    "pay_amount": 11349.84,
+    "shipping_fee": 0.0,
+    "receiver_name": "刘芳",
+    "receiver_phone": "13876680358",
+    "receiver_address": "成都市武侯区某某街道959号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF911712641089",
+    "pay_time": "2026-10-27 09:57:45",
+    "ship_time": "2026-10-27 18:57:45",
+    "deliver_time": "2026-10-29 18:57:45",
+    "remark": "放快递柜",
+    "items": [
+      {
+        "product_id": 167,
+        "product_name": "商品167 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product167/100/100",
+        "specs": "蓝色 标准版",
+        "price": 1667.31,
+        "quantity": 1,
+        "subtotal": 1667.31
+      },
+      {
+        "product_id": 71,
+        "product_name": "商品71 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product71/100/100",
+        "specs": "白色 高配版",
+        "price": 1307.21,
+        "quantity": 1,
+        "subtotal": 1307.21
+      },
+      {
+        "product_id": 96,
+        "product_name": "商品96 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product96/100/100",
+        "specs": "白色 高配版",
+        "price": 3311.92,
+        "quantity": 3,
+        "subtotal": 9935.76
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "order_no": "ORD20261023000054",
+    "user_id": "user_0459",
+    "user_name": "钱七",
+    "status": "delivered",
+    "total_amount": 1660.66,
+    "discount_amount": 188.81,
+    "pay_amount": 1471.85,
+    "shipping_fee": 0.0,
+    "receiver_name": "钱七",
+    "receiver_phone": "13892110650",
+    "receiver_address": "北京市朝阳区某某街道743号",
+    "logistics_company": "圆通速递",
+    "logistics_no": "SF929169391611",
+    "pay_time": "2026-10-24 19:01:45",
+    "ship_time": "2026-10-26 21:01:45",
+    "deliver_time": "2026-10-29 21:01:45",
+    "remark": "请尽快发货",
+    "items": [
+      {
+        "product_id": 193,
+        "product_name": "商品193 - 标准版",
+        "product_image": "https://picsum.photos/seed/product193/100/100",
+        "specs": "蓝色 标准版",
+        "price": 830.33,
+        "quantity": 2,
+        "subtotal": 1660.66
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "order_no": "ORD20261008000055",
+    "user_id": "user_0752",
+    "user_name": "孙八",
+    "status": "completed",
+    "total_amount": 17108.3,
+    "discount_amount": 2544.57,
+    "pay_amount": 14563.73,
+    "shipping_fee": 0.0,
+    "receiver_name": "孙八",
+    "receiver_phone": "13899788656",
+    "receiver_address": "深圳市南山区某某街道736号",
+    "logistics_company": "京东物流",
+    "logistics_no": "SF589901450798",
+    "pay_time": "2026-10-08 15:37:45",
+    "ship_time": "2026-10-11 07:37:45",
+    "deliver_time": "2026-10-12 07:37:45",
+    "remark": "工作日送达",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "商品27 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product27/100/100",
+        "specs": "黑色 标准款",
+        "price": 2852.16,
+        "quantity": 3,
+        "subtotal": 8556.48
+      },
+      {
+        "product_id": 160,
+        "product_name": "商品160 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product160/100/100",
+        "specs": "黑色 标准款",
+        "price": 1111.49,
+        "quantity": 2,
+        "subtotal": 2222.98
+      },
+      {
+        "product_id": 180,
+        "product_name": "商品180 - 旗舰款",
+        "product_image": "https://picsum.photos/seed/product180/100/100",
+        "specs": "白色 高配版",
+        "price": 3164.42,
+        "quantity": 2,
+        "subtotal": 6328.84
+      }
+    ]
+  }
+]

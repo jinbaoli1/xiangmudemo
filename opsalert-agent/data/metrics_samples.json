@@ -1,0 +1,226 @@
+{
+  "order-service": {
+    "cpu_usage": {
+      "unit": "%",
+      "threshold": 80,
+      "normal_range": [30, 60],
+      "anomaly_value": 92.5
+    },
+    "memory_usage": {
+      "unit": "%",
+      "threshold": 85,
+      "normal_range": [40, 70],
+      "anomaly_value": 65.0
+    },
+    "disk_usage": {
+      "unit": "%",
+      "threshold": 85,
+      "normal_range": [20, 50],
+      "anomaly_value": 45.0
+    },
+    "error_rate": {
+      "unit": "%",
+      "threshold": 5,
+      "normal_range": [0, 1],
+      "anomaly_value": 3.5
+    },
+    "request_qps": {
+      "unit": "qps",
+      "threshold": null,
+      "normal_range": [500, 1500],
+      "anomaly_value": 2800
+    },
+    "response_time": {
+      "unit": "ms",
+      "threshold": 500,
+      "normal_range": [50, 200],
+      "anomaly_value": 650
+    }
+  },
+  "user-service": {
+    "cpu_usage": {
+      "unit": "%",
+      "threshold": 80,
+      "normal_range": [20, 50],
+      "anomaly_value": 45.0
+    },
+    "memory_usage": {
+      "unit": "%",
+      "threshold": 85,
+      "normal_range": [30, 60],
+      "anomaly_value": 55.0
+    },
+    "error_rate": {
+      "unit": "%",
+      "threshold": 5,
+      "normal_range": [0, 0.5],
+      "anomaly_value": 0.3
+    },
+    "request_qps": {
+      "unit": "qps",
+      "threshold": null,
+      "normal_range": [1000, 3000],
+      "anomaly_value": 2000
+    }
+  },
+  "payment-service": {
+    "cpu_usage": {
+      "unit": "%",
+      "threshold": 80,
+      "normal_range": [25, 55],
+      "anomaly_value": 50.0
+    },
+    "memory_usage": {
+      "unit": "%",
+      "threshold": 85,
+      "normal_range": [40, 70],
+      "anomaly_value": 82.0
+    },
+    "pod_restart_count": {
+      "unit": "次",
+      "threshold": 3,
+      "normal_range": [0, 0],
+      "anomaly_value": 5
+    },
+    "error_rate": {
+      "unit": "%",
+      "threshold": 2,
+      "normal_range": [0, 0.2],
+      "anomaly_value": 1.8
+    }
+  },
+  "product-service": {
+    "cpu_usage": {
+      "unit": "%",
+      "threshold": 80,
+      "normal_range": [30, 60],
+      "anomaly_value": 55.0
+    },
+    "memory_usage": {
+      "unit": "%",
+      "threshold": 85,
+      "normal_range": [40, 65],
+      "anomaly_value": 85.0
+    },
+    "response_time": {
+      "unit": "ms",
+      "threshold": 300,
+      "normal_range": [30, 100],
+      "anomaly_value": 120
+    }
+  },
+  "recommend-service": {
+    "cpu_usage": {
+      "unit": "%",
+      "threshold": 80,
+      "normal_range": [40, 70],
+      "anomaly_value": 65.0
+    },
+    "response_time": {
+      "unit": "ms",
+      "threshold": 500,
+      "normal_range": [100, 300],
+      "anomaly_value": 2000
+    },
+    "error_rate": {
+      "unit": "%",
+      "threshold": 3,
+      "normal_range": [0, 1],
+      "anomaly_value": 0.8
+    }
+  },
+  "api-gateway": {
+    "cpu_usage": {
+      "unit": "%",
+      "threshold": 80,
+      "normal_range": [20, 50],
+      "anomaly_value": 75.0
+    },
+    "error_rate": {
+      "unit": "%",
+      "threshold": 2,
+      "normal_range": [0, 0.5],
+      "anomaly_value": 5.8
+    },
+    "request_qps": {
+      "unit": "qps",
+      "threshold": null,
+      "normal_range": [2000, 5000],
+      "anomaly_value": 8000
+    },
+    "response_time": {
+      "unit": "ms",
+      "threshold": 300,
+      "normal_range": [20, 80],
+      "anomaly_value": 250
+    }
+  },
+  "order-mysql": {
+    "cpu_usage": {
+      "unit": "%",
+      "threshold": 70,
+      "normal_range": [20, 50],
+      "anomaly_value": 85.0
+    },
+    "memory_usage": {
+      "unit": "%",
+      "threshold": 80,
+      "normal_range": [50, 70],
+      "anomaly_value": 75.0
+    },
+    "connection_count": {
+      "unit": "个",
+      "threshold": 800,
+      "normal_range": [200, 500],
+      "anomaly_value": 1000
+    }
+  },
+  "user-redis": {
+    "cpu_usage": {
+      "unit": "%",
+      "threshold": 70,
+      "normal_range": [10, 30],
+      "anomaly_value": 25.0
+    },
+    "memory_usage": {
+      "unit": "%",
+      "threshold": 80,
+      "normal_range": [40, 60],
+      "anomaly_value": 55.0
+    },
+    "cache_hit_rate": {
+      "unit": "%",
+      "threshold": 85,
+      "normal_range": [90, 98],
+      "anomaly_value": 60.0
+    }
+  },
+  "order-mq": {
+    "message_backlog": {
+      "unit": "条",
+      "threshold": 10000,
+      "normal_range": [0, 1000],
+      "anomaly_value": 100000
+    },
+    "consume_rate": {
+      "unit": "条/秒",
+      "threshold": null,
+      "normal_range": [500, 1500],
+      "anomaly_value": 300
+    }
+  },
+  "log-server": {
+    "disk_usage": {
+      "unit": "%",
+      "threshold": 85,
+      "normal_range": [40, 70],
+      "anomaly_value": 88.0
+    },
+    "cpu_usage": {
+      "unit": "%",
+      "threshold": 70,
+      "normal_range": [15, 40],
+      "anomaly_value": 35.0
+    }
+  }
+}

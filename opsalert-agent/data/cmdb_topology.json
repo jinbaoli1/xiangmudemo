@@ -1,0 +1,234 @@
+{
+  "services": [
+    {
+      "id": "api-gateway",
+      "name": "API网关",
+      "type": "gateway",
+      "status": "healthy",
+      "description": "统一API入口，负责路由、鉴权、限流",
+      "owner": "张工",
+      "team": "基础架构组",
+      "instances": 6,
+      "env": "prod",
+      "region": "cn-east-1",
+      "tags": ["gateway", "入口", "核心"]
+    },
+    {
+      "id": "user-service",
+      "name": "用户服务",
+      "type": "microservice",
+      "status": "healthy",
+      "description": "用户注册、登录、信息管理",
+      "owner": "李工",
+      "team": "用户中心组",
+      "instances": 8,
+      "env": "prod",
+      "region": "cn-east-1",
+      "tags": ["用户", "核心服务"]
+    },
+    {
+      "id": "order-service",
+      "name": "订单服务",
+      "type": "microservice",
+      "status": "healthy",
+      "description": "订单创建、查询、状态管理",
+      "owner": "王工",
+      "team": "交易组",
+      "instances": 8,
+      "env": "prod",
+      "region": "cn-east-1",
+      "tags": ["订单", "交易", "核心服务"]
+    },
+    {
+      "id": "payment-service",
+      "name": "支付服务",
+      "type": "microservice",
+      "status": "healthy",
+      "description": "支付处理、对账、退款",
+      "owner": "赵工",
+      "team": "支付组",
+      "instances": 6,
+      "env": "prod",
+      "region": "cn-east-1",
+      "tags": ["支付", "交易", "核心服务"]
+    },
+    {
+      "id": "product-service",
+      "name": "商品服务",
+      "type": "microservice",
+      "status": "healthy",
+      "description": "商品信息管理、库存查询",
+      "owner": "孙工",
+      "team": "商品组",
+      "instances": 8,
+      "env": "prod",
+      "region": "cn-east-1",
+      "tags": ["商品", "核心服务"]
+    },
+    {
+      "id": "recommend-service",
+      "name": "推荐服务",
+      "type": "microservice",
+      "status": "healthy",
+      "description": "个性化推荐、热门排行",
+      "owner": "周工",
+      "team": "算法组",
+      "instances": 4,
+      "env": "prod",
+      "region": "cn-east-1",
+      "tags": ["推荐", "算法"]
+    },
+    {
+      "id": "order-mysql",
+      "name": "订单数据库",
+      "type": "database",
+      "status": "healthy",
+      "description": "订单数据主库 MySQL 8.0",
+      "owner": "DBA组",
+      "team": "DBA组",
+      "instances": 2,
+      "env": "prod",
+      "region": "cn-east-1",
+      "tags": ["mysql", "数据库", "核心"]
+    },
+    {
+      "id": "user-redis",
+      "name": "用户缓存Redis",
+      "type": "cache",
+      "status": "healthy",
+      "description": "用户信息缓存集群 Redis 7.0",
+      "owner": "中间件组",
+      "team": "中间件组",
+      "instances": 6,
+      "env": "prod",
+      "region": "cn-east-1",
+      "tags": ["redis", "缓存"]
+    },
+    {
+      "id": "order-mq",
+      "name": "订单消息队列",
+      "type": "mq",
+      "status": "healthy",
+      "description": "订单异步处理 RabbitMQ 集群",
+      "owner": "中间件组",
+      "team": "中间件组",
+      "instances": 3,
+      "env": "prod",
+      "region": "cn-east-1",
+      "tags": ["rabbitmq", "消息队列"]
+    },
+    {
+      "id": "log-server",
+      "name": "日志服务",
+      "type": "storage",
+      "status": "healthy",
+      "description": "集中式日志收集与存储",
+      "owner": "运维组",
+      "team": "运维组",
+      "instances": 3,
+      "env": "prod",
+      "region": "cn-east-1",
+      "tags": ["日志", "运维"]
+    }
+  ],
+  "dependencies": [
+    {
+      "from_service": "api-gateway",
+      "to_service": "user-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.9
+    },
+    {
+      "from_service": "api-gateway",
+      "to_service": "order-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.9
+    },
+    {
+      "from_service": "api-gateway",
+      "to_service": "product-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.8
+    },
+    {
+      "from_service": "api-gateway",
+      "to_service": "recommend-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.6
+    },
+    {
+      "from_service": "order-service",
+      "to_service": "user-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.8
+    },
+    {
+      "from_service": "order-service",
+      "to_service": "payment-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.9
+    },
+    {
+      "from_service": "order-service",
+      "to_service": "product-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.8
+    },
+    {
+      "from_service": "order-service",
+      "to_service": "order-mysql",
+      "dependency_type": "uses",
+      "protocol": "mysql",
+      "criticality": 1.0
+    },
+    {
+      "from_service": "order-service",
+      "to_service": "order-mq",
+      "dependency_type": "uses",
+      "protocol": "amqp",
+      "criticality": 0.7
+    },
+    {
+      "from_service": "user-service",
+      "to_service": "user-redis",
+      "dependency_type": "uses",
+      "protocol": "redis",
+      "criticality": 0.9
+    },
+    {
+      "from_service": "payment-service",
+      "to_service": "order-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.7
+    },
+    {
+      "from_service": "product-service",
+      "to_service": "user-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.5
+    },
+    {
+      "from_service": "recommend-service",
+      "to_service": "product-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.8
+    },
+    {
+      "from_service": "recommend-service",
+      "to_service": "user-service",
+      "dependency_type": "calls",
+      "protocol": "http",
+      "criticality": 0.6
+    }
+  ]
+}
